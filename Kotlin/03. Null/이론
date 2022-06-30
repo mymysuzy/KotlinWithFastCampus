@@ -1,0 +1,13 @@
+NULL -> 값 혹은 상태를 모르거나 존재하지 않을 때
+
+    - 상태를 모름/존재하지 않음
+    - 0과는 다르다
+    - Null을 대상으로는 연산을 할 수 없다. 그러나 `비교연산은 가능`하다.
+        * Null + 3 = Null
+    - Null은 값을 나타내기도 하지만 `상태`를 나타내기도 한다.
+
+    - 해결방법 : 연산을 하기 전에 각 변수가 null인지 확인.
+
+    - NullSafety -> Kotlin의 가장 큰 특징!
+        * val NUMBER: Int? = null -> null가능
+        * val NUMBER: Int = null -> null불가능
