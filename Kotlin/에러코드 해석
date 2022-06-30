@@ -1,0 +1,22 @@
+unresolved reference : 변수명
+
+    - `변수명`을 찾을 수 없다.
+
+error: type mismatch: inferred type is Unit but String was expected (과제1.kts:14:29)
+    - 추론된 타입은 Unit이지만 String이 오게되어있다.
+
+variable initializer is redundant
+    - redundant : 불필요한, 쓸모없는
+    - 변수가 중복으로 초기화되었다.
+
+Index 12 out of bounds for length 10
+    - 배열의 크기가 10인데, 너가 원하는 12번째 값은 해당 배열의 크기에서 벗어난다.
+
+error: no set method providing array access
+    - set메서드를 지원하지 않는다. Immutable에 대해 변경하려고 시도하게 되면 다음과 같은 에러 발생.
+
+error: overload resolution ambiguity.
+    - 오버로드를 너가 하려는 것 같은데 그것은 모호해서 불가능하다.
+
+warning: parameter 'power' is never used
+    - 해당 파라미터에 대해 var를 붙여주면 된다.
