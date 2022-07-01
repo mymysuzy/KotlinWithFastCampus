@@ -1,0 +1,22 @@
+Iteralbe
+    - 반복이 가능하다는 의미
+    - 즉, 시작과 끝이 있다. 범위가 있다.
+        * Collection(ListOf, setOf, mapOf ...)
+        * Array
+        * Progression
+            + 시작과 끝점이 있고 범위를 정할 수 있다.
+            + 구간 1 -> 기본적으로 반복할 때 1씩 이동.
+            + 구간 1 이상일 때
+                - 1..10 step 2
+                - 10 down to 1 step 2
+                - (1..10).reversed() step 5
+        * Range
+            + 구간이 1인 Progression
+            + 1부터 10까지
+                -> 1..10
+                -> 1.rangeTo(10)
+                -> 1 until 11
+
+
+
+
