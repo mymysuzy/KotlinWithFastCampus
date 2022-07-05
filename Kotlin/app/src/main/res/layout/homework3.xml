@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/box"
+        android:layout_centerInParent="true"
+        android:background="@color/black"></TextView>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/box"
+        android:background="@color/black"></TextView>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/box"
+        android:background="@color/black"></TextView>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/box"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/box"
+        android:background="@color/black"></TextView>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@id/box"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/box"
+        android:background="@color/black"></TextView>
+
+    <TextView
+        android:id="@+id/box"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:background="@color/black"></TextView>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/box"
+        android:layout_centerInParent="true"
+        android:background="@color/black"></TextView>
+
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/box"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/box"
+        android:background="@color/black"></TextView>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/box"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/box"
+        android:background="@color/black"></TextView>
+
+
+</RelativeLayout>
+
+
