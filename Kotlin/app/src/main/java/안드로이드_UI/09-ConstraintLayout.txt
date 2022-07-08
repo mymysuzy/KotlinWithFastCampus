@@ -31,10 +31,19 @@ ConstraintLayout -> 제약을 두는 레이아웃
     4. 비율로 설정하는 방법 -> LinearLayout Weight
         * layout_constrainHorizontal_weight
         * layout_constrainVertical_weight
+            -> 위 속성을 사용할 때는 비율을 주려는 세로 또는 가로의 크기는 0dp로 설정해줘야 한다.
 
-        * 비율을 주려는 세로 또는 가로의 크기는 0dp로 해야한다
-
-    5. 원형 위치 설정 (Circular Positioning)
-        * layout_constraintCircle : 기준을 정한다
+    5. 원형 위치 설정 (Circular Positioning) -> 세가지 속성을 모두 사용해주어야 한다. 원형은 Linear이나 relative로는 구현하기 어렵다.
+        * layout_constraintCircle : 기준점을 정한다
         * layout_constraintCircleRadius : 두 중심간의 거리
         * layout_constraintCircleAngle : 각도
+
+    6. Chain 속성
+        * Spread Chain
+        * Spread Inside
+        * Packed
+
+
+※ 언어의 특징
+    - LTR(Left to Right) : 글자를 적는 방향이 왼쪽에서 오른쪽 -> Start = Left, End = Right -> 한국어, 영어 거의 모든 언어가 채택.
+    - RTL(Right to Left) : 글자를 적는 방향이 오른쪽에서 왼쪽 -> Start = Right, End = Left
