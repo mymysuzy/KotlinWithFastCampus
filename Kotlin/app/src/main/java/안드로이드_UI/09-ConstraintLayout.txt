@@ -28,9 +28,9 @@ ConstraintLayout -> 제약을 두는 레이아웃
                 * 1인 경우 100%치우침
                 * 0.5인 경우 치우침에 변화가 없음
 
-    4. 비율로 설정하는 방법 -> LinearLayout Weight
-        * layout_constrainHorizontal_weight
-        * layout_constrainVertical_weight
+    4. 비율로 설정하는 방법 -> LinearLayout의 Weight와 같은 기능
+        * layout_constraintHorizontal_weight
+        * layout_constraintVertical_weight
             -> 위 속성을 사용할 때는 비율을 주려는 세로 또는 가로의 크기는 0dp로 설정해줘야 한다.
 
     5. 원형 위치 설정 (Circular Positioning) -> 세가지 속성을 모두 사용해주어야 한다. 원형은 Linear이나 relative로는 구현하기 어렵다.

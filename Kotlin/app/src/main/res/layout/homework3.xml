@@ -56,8 +56,8 @@
     <TextView
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:layout_toLeftOf="@id/box"
         android:layout_alignBottom="@id/box"
+        android:layout_toLeftOf="@id/box"
         android:background="@color/black"></TextView>
 
 
