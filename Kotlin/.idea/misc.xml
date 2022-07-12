@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/drawable/drawable1.xml" value="0.3275" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/drawable/drawable2.xml" value="0.24" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/activity_main.xml" value="0.32447916666666665" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/constraintlayout_1.xml" value="0.264" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/constraintlayout_2.xml" value="0.32447916666666665" />
@@ -10,10 +12,16 @@
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/constraintlayout_4.xml" value="0.2" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/constraintlayout_5.xml" value="0.2" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/constraintlayout_6.xml" value="0.264" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/drawable.xml" value="0.1" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/drawable2.xml" value="0.1" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/framelayout.xml" value="0.24375" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/gravity.xml" value="0.2658119658119658" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/gravity2.xml" value="0.325" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/homework1.xml" value="0.15780141843971632" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/homework2.xml" value="0.15780141843971632" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/homework3.xml" value="0.15780141843971632" />
-        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/homework4.xml" value="0.152" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/homework4.xml" value="0.325" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/homework5.xml" value="0.325" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/linearlayout.xml" value="0.264" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/linearlayout2.xml" value="0.32447916666666665" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/linearlayout_05.xml" value="0.4636752136752137" />
@@ -21,6 +29,8 @@
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/playground.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/relativelayout.xml" value="0.21331521739130435" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/relativelayout2.xml" value="0.176" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/resource.xml" value="0.1" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/Kotlin/app/src/main/res/layout/scrollview.xml" value="0.325" />
       </map>
     </option>
   </component>
