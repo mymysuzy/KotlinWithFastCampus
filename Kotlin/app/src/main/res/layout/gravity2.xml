@@ -14,7 +14,9 @@
             android:layout_gravity="center"
             android:background="@color/purple_200"
             android:gravity="bottom|right"
-            android:text="안녕하세요"></TextView>
+            android:text="안녕하세요">
+
+        </TextView>
 
         <TextView
             android:layout_width="100dp"
@@ -22,7 +24,9 @@
             android:layout_gravity="center"
             android:background="@color/purple_200"
             android:gravity="bottom|right"
-            android:text="안녕하세요"></TextView>
+            android:text="안녕하세요">
+
+        </TextView>
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 
