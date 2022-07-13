@@ -6,7 +6,9 @@
     <Button
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:background="@drawable/drawable1"
-        ></Button>
+        android:background="@drawable/drawable_test"
+        >
+
+    </Button>
 
 </androidx.appcompat.widget.LinearLayoutCompat>

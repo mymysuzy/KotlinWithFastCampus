@@ -14,7 +14,9 @@
         app:layout_constraintBaseline_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toLeftOf="@id/text2"
-        tools:layout_editor_absoluteY="0dp"></TextView>
+        tools:layout_editor_absoluteY="0dp">
+
+    </TextView>
 
 
     <TextView
@@ -25,7 +27,9 @@
         app:layout_constraintBaseline_toTopOf="parent"
         app:layout_constraintLeft_toRightOf="@id/text1"
         app:layout_constraintRight_toRightOf="parent"
-        tools:layout_editor_absoluteY="0dp"></TextView>
+        tools:layout_editor_absoluteY="0dp">
+
+    </TextView>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

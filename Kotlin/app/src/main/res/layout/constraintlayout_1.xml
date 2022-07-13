@@ -10,17 +10,13 @@
         android:layout_height="100dp"
         android:background="@color/design_default_color_error"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-    </TextView>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="@color/black"
         app:layout_constraintLeft_toRightOf="@id/box"
-        app:layout_constraintTop_toTopOf="@id/box">
-
-    </TextView>
+        app:layout_constraintTop_toTopOf="@id/box"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
