@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android"
     android:shape="rectangle">
+<!--shape -> rectangle, oval, line, right 중 한 개의 도형을 지정할 수 있다.-->
 
     <solid android:color="#4064EE" />
+<!--solid -> 모형을 단색으로 채울 때 사용-->
 
     <corners android:radius="100dp" />
+<!--corners -> 모형의 가장자리를 둥글게 처리할 때 사용-->
 
 </shape>
