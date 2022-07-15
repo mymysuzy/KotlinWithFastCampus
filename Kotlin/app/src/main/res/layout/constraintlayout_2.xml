@@ -9,7 +9,9 @@
         android:layout_height="100dp"
         android:background="@color/black"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="100dp"></TextView>
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="100dp"
+        ></TextView>
 
 
 
