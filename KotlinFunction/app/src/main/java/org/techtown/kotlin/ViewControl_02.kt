@@ -3,6 +3,7 @@ package org.techtown.kotlin
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.view.View
 import android.widget.Button
 import android.widget.TextView
 
@@ -21,5 +22,14 @@ class ViewControl_02 : AppCompatActivity() {
         buttonOne.setOnClickListener {
             Log.d("testt", "버튼 클릭!")
         }
+        
+        // 풀버전
+        val clickListener = object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                TODO("Not yet implemented")
+            }
+
+        }
+        buttonOne.setOnClickListener(clickListener)
     }
 }

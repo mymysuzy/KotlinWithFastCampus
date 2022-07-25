@@ -20,7 +20,7 @@
             android:name=".Homework_1"
             android:exported="false" />
         <activity
-            android:name=".ViewControl_02"
+            android:name=".Intent_One"
             android:exported="false" />
         <activity
             android:name=".Activity_01"
@@ -32,7 +32,10 @@
             android:name=".TestActivity"
             android:exported="false" />
         <activity
-            android:name=".Intent_01"
+            android:name=".Intent_Two"
+            android:exported="false" />
+        <activity
+            android:name=".ViewControl_02"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

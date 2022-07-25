@@ -1,10 +1,9 @@
 package org.techtown.kotlin
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.TextView
-import org.w3c.dom.Text
+import androidx.appcompat.app.AppCompatActivity
 
 class Homework_1 : AppCompatActivity() {
 
@@ -24,7 +23,6 @@ class Homework_1 : AppCompatActivity() {
     lateinit var ca: TextView
     lateinit var plus: TextView
     lateinit var equal: TextView
-
     lateinit var result: TextView
 
     var input: String = ""
@@ -36,7 +34,48 @@ class Homework_1 : AppCompatActivity() {
         setContentView(R.layout.activity_homework1) // 이 작업이 끝나야 View가 그려지는 작업이 끝나는 것. 이 코드 이후에 findById를 사용해 View를 찾아야 한다.
 
         findViews() // 이제 View를 찾아주자
-        setNumberTextViewListener()
+//        setNumberTextViewListener()
+
+        one.setOnClickListener {
+            input += (it as TextView).text
+            result.text = input
+        }
+        two.setOnClickListener {
+            input += (it as TextView).text
+            result.text = input
+        }
+        three.setOnClickListener {
+            input += (it as TextView).text
+            result.text = input
+        }
+        four.setOnClickListener {
+            input += (it as TextView).text
+            result.text = input
+        }
+        five.setOnClickListener {
+            input += (it as TextView).text
+            result.text = input
+        }
+        six.setOnClickListener {
+            input += (it as TextView).text
+            result.text = input
+        }
+        seven.setOnClickListener {
+            input += (it as TextView).text
+            result.text = input
+        }
+        eight.setOnClickListener {
+            input += (it as TextView).text
+            result.text = input
+        }
+        nine.setOnClickListener {
+            input += (it as TextView).text
+            result.text = input
+        }
+        zero.setOnClickListener {
+            input += (it as TextView).text
+            result.text = input
+        }
 
         ca.setOnClickListener {
             input = ""
@@ -59,9 +98,10 @@ class Homework_1 : AppCompatActivity() {
         val numberTextViewList: List<TextView> = listOf(
             one, two, three, four, five, six, seven, eight, nine, zero
         )
-        val listener = object : View.OnClickListener {
-            override fun onClick(p0: View?) {
-                input += (p0 as TextView).text
+
+        val listener : View.OnClickListener = object : View.OnClickListener {
+            override fun onClick(v: View?) {
+                input += (v as TextView).text
                 result.text = input
             }
         }
@@ -84,6 +124,5 @@ class Homework_1 : AppCompatActivity() {
         ca = findViewById(R.id.ca)
         result = findViewById(R.id.result)
     }
-
 
 }

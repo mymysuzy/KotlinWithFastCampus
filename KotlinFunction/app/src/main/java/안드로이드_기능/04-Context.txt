@@ -2,7 +2,14 @@ Context
     - 앱의 흐름
 
 Application Context
+    - 하나만 존재
+    - 앱 전반에 걸친 정보와 환경
+    - Application lifecycle에 영향을 받음
+
+Activity Context
     - Activity마다 존재
+    - Activity lifecyce에 영향을 받음
+    - Context를 구현하고 기능을 추가한게 Activity
 
 책(Application Context)
     Chapter1(Activity Context)
