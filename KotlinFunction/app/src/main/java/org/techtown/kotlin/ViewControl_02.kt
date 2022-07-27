@@ -20,16 +20,16 @@ class ViewControl_02 : AppCompatActivity() {
 
         // Listener 사용방법
         buttonOne.setOnClickListener {
-            Log.d("testt", "버튼 클릭!")
+            Log.d("tagg", "this is message")
         }
         
         // 풀버전
-        val clickListener = object : View.OnClickListener {
-            override fun onClick(v: View?) {
-                TODO("Not yet implemented")
-            }
-
-        }
-        buttonOne.setOnClickListener(clickListener)
+//        val clickListener = object : View.OnClickListener {
+//            override fun onClick(v: View?) {
+//                TODO("Not yet implemented")
+//            }
+//
+//        }
+//        buttonOne.setOnClickListener(clickListener)
     }
 }

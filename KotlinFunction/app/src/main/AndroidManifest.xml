@@ -17,10 +17,10 @@
             android:name=".Homework1Review"
             android:exported="false" />
         <activity
-            android:name=".Homework_1"
+            android:name=".ViewControl_02"
             android:exported="false" />
         <activity
-            android:name=".Intent_One"
+            android:name=".Homework_1"
             android:exported="false" />
         <activity
             android:name=".Activity_01"
@@ -35,11 +35,10 @@
             android:name=".Intent_Two"
             android:exported="false" />
         <activity
-            android:name=".ViewControl_02"
+            android:name=".Intent_One"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

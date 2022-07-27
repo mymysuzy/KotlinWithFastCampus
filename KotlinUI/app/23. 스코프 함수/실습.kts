@@ -8,9 +8,10 @@ val gildong = Person().apply {
     age = 20
 }
 
+
 // also
-// 유효성 검사를 할 때 좋다
-// 수신된 객체의 속성을 변경하지 않고 사용할 때
+// - 유효성 검사를 할 때 좋다
+// - 수신된 객체의 속성을 변경하지 않고 사용할 때
 val gildong2 = Person("victor").also {
     nameIsGildong(it.name)
 }

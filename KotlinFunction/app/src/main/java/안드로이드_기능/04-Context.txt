@@ -8,7 +8,7 @@ Application Context
 
 Activity Context
     - Activity마다 존재
-    - Activity lifecyce에 영향을 받음
+    - Activity lifecycle에 영향을 받음
     - Context를 구현하고 기능을 추가한게 Activity
 
 책(Application Context)

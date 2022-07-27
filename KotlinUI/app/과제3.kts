@@ -95,21 +95,3 @@ val calculater3 = Calculater3()
 calculater3.calculate(listOf<Char>('+', '-'), listOf<Int>(10, 20))
 
 println(calculater3.result)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

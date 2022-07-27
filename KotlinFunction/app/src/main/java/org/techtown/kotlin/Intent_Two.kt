@@ -2,13 +2,12 @@ package org.techtown.kotlin
 
 import android.content.Intent
 import android.net.Uri
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Parcelable
 import android.util.Log
 import android.widget.ImageView
 import android.widget.TextView
-import org.techtown.kotlin.R
+import androidx.appcompat.app.AppCompatActivity
 
 class Intent_Two : AppCompatActivity() {
 
