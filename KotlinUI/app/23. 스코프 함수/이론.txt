@@ -2,15 +2,18 @@
     - 동작의 원리는 모르더라도 언제 사용하면 좋은지 알고 사용해도 가치가 있다
     - { 본문 } <- 이러한 범위를 스코프라 한다
 
+    - 종류 : apply/also/run(with)/let
+
+    apply와 let은 사용빈도수가 많은 편
+
     val victor = Person().____{
         name = "victor"
         age = 20
     }
 
-    - apply/also/run(with)/let
 
     - apply/also
-        * 처리가 끝나면 인스턴스(객체)를 반환
+        * 처리가 끝나면(스코프 끝) Person 인스턴스(객체)를 반환
 
     - run(with)/let
         * 처리가 끝나면 최종값을 반환
@@ -18,9 +21,31 @@
 
 
     - apply/run(with)
-        * this : 스코프 밖에 있는 변수 이름과 혼동할 수 있다 -> 클래스 안에 this가 있다
-                 Person클래스 자체를 의미. 대괄호 모두 수행해야 객체가 생성됨
+        * this가 넘어온다 : this는 Person클래스 자체를 의미.
+                          대괄호 모두 수행해야 객체가 생성됨
+                          스코프 밖에 있는 변수 이름과 혼동된다.
+                          -->> val name = "홍길동"의 name인지 Person의 name인지 구분 불가능
+
+
+                 // this 필수 아님
+                     val name = "홍길동"
+                     val victor = Person().____{
+                         name = "victor"
+                         age = 20
+                     }
+
 
     - also/let
-        * it : 스코프 밖에 있는 변수 이름과 혼동하는 것을 방지 -> 클래스를 통해 만들어진 객체가 있다
-               Person클래스에서 만들어진 객체를 의미. 대괄호 시작하기 전에 이미 객체를 생성
+        * it가 넘어온다 : Person클래스 통해서 만들어진 객체를 의미.
+                        it은 클래스를 통해 만들어진 객체가 넘어오는 것
+                        대괄호 시작하기 전에 이미 객체를 생성
+                        스코프 밖에 있는 변수 이름과 혼동하는 것을 방지 -> 클래스를 통해 만들어진 객체가 있다
+
+
+               // it이 필수
+                   val name = "홍길동"
+                   val victor = Person().____{
+                       it.name = "victor"        -->> Person의 name이다.
+                       name = "아무개"            -->> val name = "홍길동"이다.
+                       it.age = 20
+                   }

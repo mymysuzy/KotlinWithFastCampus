@@ -1,0 +1,21 @@
+Thread
+
+- 어플리케이션을 실행하는 흐름
+- Thread가 처리하는데 오래걸리는 작업을 만날 수 있다
+    * 이 때 버튼을 클릭하는 등 다른 작업을 할 수 없다
+    * 다른 작업을 하기 위해선 Thread를 추가해야 한다
+    * 실행 중 언제든지 만들어질 수 있고 삭제할 수 있다 하지만 반드시 한 개는 필요하다
+        - Main Thread
+            * 최초로 실행되며 무조건 실행된다
+            * 두번 째 Thread는 무조건 메인 쓰레드에서 생성 되었다
+            * 세번 째 Thread 부터는 Main Thread 또는 두번째로 생성된 Thread에 의해 생성될 수 있다
+
+- 안드로이드에서의 Main Thread (== UI Thread)
+    * 화면을 그리는 역할을 담당
+        - 다른 Thread는 화면을 그릴 수 없다
+        - Thread는 서로 독립적이기 때문에 어느 Thead가 언제 어떤 작업을 하는지 알 수 없기 때문
+
+- 스크립트언어가 아닌 이상 main이란 이름을 가진 함수부터 실행된다
+- 안드로이드에서는 Manifest.xml에서 intent-filter에 MAIN이라 지정된 것이 Launcher Activity
+
+

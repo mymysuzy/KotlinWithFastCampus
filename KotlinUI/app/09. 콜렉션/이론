@@ -1,4 +1,9 @@
 콜렉션
+: 데이터를 저장하고 처리하는 알고리즘을 구조화하여 클래스로 구현해놓은 것
+
+Kotlin에서 Collection은 크게 immutable/mutable 2가지로 구분된다.
+mutable로 생성하면 add, remove가 가능하지만 immutable은 불가능하다.
+
 
 Tip
 - 기본적으로 불변한 immutable을 사용하는 것이 좋다.
@@ -11,7 +16,7 @@ Tip
 ////////////////////////////////////////////////////////////////////////
 
 - 특징으로 분리
-    * List
+    * List 인터페이스 -> 순서가 존재한다
         - Immutable
             listOf<자료형>(값1, 값2, 값3)
             -> val numbers: List<Int> = listOf<Int>(값1, 값2, 값3)
@@ -19,13 +24,15 @@ Tip
             mutableListOf<자료형>(값1, 값2, 값3)
             -> val numbers = mutableListOf<Int>(값1, 값2, 값3)
 
-    * Set -> 똑같은 값을 허락하지 않는다.
+            ==>> Mutable해야 add, remove, plus 등이 가능하다
+
+    * Set 인터페이스 -> 똑같은 값을 허락하지 않는다.
         - Immutable
             setOf<자료형>(값1, 값1, 값2, 값3) -> setOf<자료형>(값1, 값2, 값3)
         - Mutable
             setOf<자료형>(값1, 값1, 값2, 값3)
 
-    * Map -> 키-밸류 저장방식
+    * Map 인터페이스 -> 키-밸류 저장방식
         - Immutable
             mapOf<자료형, 자료형>(키1 to 밸류1, 키2 to 밸류2)
             -> var numbers = mapOf<String, String>("1" to "하나", "2" to "둘")

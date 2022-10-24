@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentActivity"
+    android:orientation="vertical">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragment_first"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:name="org.techtown.kotlin.FragmentFirst"
+        tools:layout ="@layout/first_fragment" />
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="add"
+        android:gravity="center"
+        android:background="@drawable/calculator_bg"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:id="@+id/remove"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="remove"
+        android:gravity="center"
+        android:background="@drawable/calculator_bg"
+        android:textSize="40dp"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/root"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

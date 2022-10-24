@@ -11,13 +11,15 @@
         android:id="@+id/finish"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:text="나는 Intent_two.kt의 박스"
+        android:gravity="center"
         android:background="@color/purple_200" />
 
-
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/imgView"
         android:layout_width="100dp"
         android:layout_height="100dp"
-        android:src="@drawable/calculator_bg" />
+        android:src="@drawable/calculator_bg"/>
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>

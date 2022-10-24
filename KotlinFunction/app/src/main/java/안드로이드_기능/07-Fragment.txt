@@ -1,0 +1,78 @@
+Fragment
+
+1) 정의
+- 모듈식이라 재사용이 가능하다 -> 근데 재사용을 잘 하진 않는다
+
+- FragmentActivity내의 어떤 동작 또는 사용자 인터페이스의 일부를 나타낸다
+
+  즉, Fragment는 Activity의 부속으로 사용되는데 화면(사용자 인터페이스)을 그릴 때도 사용된다는 뜻
+
+- 여러개의 Fragment를 하나의 Activity에 결합하여 창이 여러개인 UI를 빌드할 수 있다
+
+- 하나의 Fragment를 여러 Activity에서 재사용할 수 있다
+
+- Fragment는 Activity의 모듈식 섹션이라 생각하면 된다
+
+- Fragment는 자체적인 수명 주기를 가지고 자체적인 입력 이벤트를 수신한다
+
+- 수명 주기는 호스트 액티비티의 수명 주기에 직접적으로 영향을 받는다
+
+- 다른 Activity에 재사용할 수 있는 하위 Activity같은 개념
+
+- Fragment는 Fragment Activity안에 존재한다
+
+- Activity를 Fragment로 관리하며 유지보수를 쉽게 만드는 것이 가장 큰 특징
+
+- xml에서 Fragment에 반드시 id를 부여해주어야 한다
+
+
+
+2) 생명주기
+- onAttach
+    * Fragment가 Activity와 연결되어 있는 경우 호출된다
+    * 여기서 Activity가 전달된다
+
+- onCreate
+    * Fragment를 생성할 때 시스템에서 호출한다
+    * 초기화 작업을 해주는게 좋다
+
+- onCreateView
+    * Fragment가 자신의 인터페이스(화면)를 처음으로 그릴 시간이 되면 호출된다
+    * View를 반환해야 한다
+    * 화면없이 리턴할 땐(UI를 제공하지 않는 경우) null을 반환
+
+- onPause
+    * 사용자가 Fragment를 떠난다는 것을 나타내는 첫 번째 신호
+    * 변경 사항을 저장하면 좋다
+
+- onDetach
+    * Fragment가 Activity와 연결이 끊어지는 중일 때 호출된다
+
+
+3) 생성방법
+    - xml에 추가
+    - 코드로 추가
+
+4) 데이터 전달하는 방법
+- Activity와 통신하는 방법
+  * 데이터 전달하는 방법
+
+
+5) commit
+
+- Commit의 종류
+
+    1) commit
+    2) commitAllowingStateLoss
+    3) commitNot
+    4) commitNowAllowingStateLoss
+
+- commit vs commitAllowingStateLoss
+    * commit : 저장한 경우 실행할 수 없다 (IllegalStateException발생)
+    * commitAllowingStateLoss : 저장한 경우 예외가 발생하지 않고 그냥 손실된다 (IllegalStateException발생해도 무시한다)
+
+- commit vs commitNow
+    * commit : 우리가 걸어둔 transaction(작업)을 Main Thread에 예약한다
+    * commitNow : 예약하지 않고 바로 실행한다
+
+    단, 간단한 화면에서는 commit과 commitNow가 구분되지 않을 정도로 빠르다

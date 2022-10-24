@@ -9,6 +9,7 @@ class Activity_01 : AppCompatActivity() {
 
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_01)
+
         Log.d("LifeCycle", "onCreate")
     }
 
