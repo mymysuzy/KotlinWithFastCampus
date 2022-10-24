@@ -12,24 +12,35 @@ class ViewControl_02 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view_control02)
 
-        // 뷰를 액티비티로 가져오는 방법
+        // xml에 있는 뷰 컴포넌트를 액티비티로 가져옴
         val textViewOne : TextView = findViewById(R.id.textViewOne)
         val buttonOne: Button = findViewById(R.id.buttonOne)
 
-        Log.d("testt", textViewOne .text.toString())
+        Log.d("testt", textViewOne.text.toString())
+
 
         // Listener 사용방법
         buttonOne.setOnClickListener {
-            Log.d("tagg", "this is message")
+            // 버튼이 클릭되었을 때 넣고싶은 동작 구현
+            Log.d("tagg", "버튼을 누르셨습니다.")
         }
         
-        // 풀버전
+        // Listener 풀버전
 //        val clickListener = object : View.OnClickListener {
 //            override fun onClick(v: View?) {
-//                TODO("Not yet implemented")
+//                Log.d("tagg", "버튼을 누르셨습니다.")
 //            }
 //
 //        }
 //        buttonOne.setOnClickListener(clickListener)
+
+        // Listener 축약버전
+//        buttonOne.setOnClickListener(object : View.OnClickListener{
+//            override fun onClick(p0: View?) {
+//                Log.d("tagg", "버튼을 누르셨습니다.")
+//            }
+//        })
     }
+
+
 }

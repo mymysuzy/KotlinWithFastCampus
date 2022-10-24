@@ -5,12 +5,20 @@
 
     - Listener
         * 이벤트가 발생했을 때 수신하는 역할
+          - setOnClickListener : 해당 버튼이나 글자가 눌러졌을 때 동작할 코드를 적으면 된다.
+          - 이외에도 각 뷰마다 다양한 리스터가 존재하는데, 다 외울 수는 없다.
+            set까지만 적어보고 ctrl + space해서 읽어보자
 
-    - xml에 존재하는 뷰를 activity로 가져오자
-        * findViewById
-            - Id -> xml에서 부여한 view의 id
-        * kotlinx -> deprecated됨
-            - 귀찮은 findViewById과정을 생략 가능
-        * databinding
-            - 뷰와 데이터를 묶는다
+
+
+뷰를 컨트롤 하려면, 우선 xml에 존재하는 뷰를 activity로 가져오자
+    * findViewById
+        - Id -> xml에서 부여한 view의 id
+    * kotlinx -> deprecated됨
+        - 귀찮은 findViewById과정을 생략 가능
+    * databinding
+        - 뷰와 데이터를 묶는다
+        - 이름, 성별 데이터가 있다면 이름을 보여주는 뷰와 성벽을 보여주는 뷰가 있음. 이렇게 각각을 매칭해주는 방식
+        - findViewById보다 이해하기 어려움. 그러나 있다는 것을 알아야 하고 실습도 해봐야함.
+
 

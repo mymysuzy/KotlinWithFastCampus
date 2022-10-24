@@ -7,8 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 class Homework_1 : AppCompatActivity() {
 
-    // 변수들을 이 코틀린 파일 전체에서 사용하기 위해 onCreate전에 선언.
-    // 그런데 초기화해줘야하니까 lateinit 사용
+    // 변수들을 파일 전체에서 사용하기 위해 onCreate전에 선언.
     lateinit var one: TextView
     lateinit var two: TextView
     lateinit var three: TextView
@@ -36,6 +35,8 @@ class Homework_1 : AppCompatActivity() {
         findViews() // 이제 View를 찾아주자
 //        setNumberTextViewListener()
 
+
+// Kotlin에서 String은 +로 더하면 글자가 합쳐진다.
         one.setOnClickListener {
             input += (it as TextView).text
             result.text = input
@@ -94,19 +95,19 @@ class Homework_1 : AppCompatActivity() {
 
     }
 
-    fun setNumberTextViewListener() {
-        val numberTextViewList: List<TextView> = listOf(
-            one, two, three, four, five, six, seven, eight, nine, zero
-        )
-
-        val listener : View.OnClickListener = object : View.OnClickListener {
-            override fun onClick(v: View?) {
-                input += (v as TextView).text
-                result.text = input
-            }
-        }
-        numberTextViewList.forEach { it.setOnClickListener(listener) }
-    }
+//    fun setNumberTextViewListener() {
+//        val numberTextViewList: List<TextView> = listOf(
+//            one, two, three, four, five, six, seven, eight, nine, zero
+//        )
+//
+//        val listener : View.OnClickListener = object : View.OnClickListener {
+//            override fun onClick(v: View?) {
+//                input += (v as TextView).text
+//                result.text = input
+//            }
+//        }
+//        numberTextViewList.forEach { it.setOnClickListener(listener) }
+//    }
 
     fun findViews() {
         one = findViewById(R.id.one)

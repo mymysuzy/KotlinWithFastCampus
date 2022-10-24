@@ -1,15 +1,7 @@
 Context
     - 앱의 흐름
 
-Application Context
-    - 하나만 존재
-    - 앱 전반에 걸친 정보와 환경
-    - Application lifecycle에 영향을 받음
 
-Activity Context
-    - Activity마다 존재
-    - Activity lifecycle에 영향을 받음
-    - Context를 구현하고 기능을 추가한게 Activity
 
 책(Application Context)
     Chapter1(Activity Context)
@@ -21,6 +13,34 @@ Activity Context
         chapter3-1
         chapter3-2
         chapter3-3
+
+
+Application Context
+    - 앱의 흐름
+    - 하나만 존재
+    - 앱 전반에 걸친 정보와 환경
+    - Application lifecycle에 영향을 받음
+
+Activity Context
+    - Activity의 흐름
+    - Activity마다 존재
+    - Activity lifecycle에 영향을 받음
+
+
+※ Activity는 Context의 자식이라고 보면 된다
+  Context를 구현하고 기능을 추가한게 Activity
+
+  따라서 Context를 넣어야 하는 곳에 Activity를 넣어도 된다.
+
+Context는 완전히 이해하기가 어렵다
+
+///////////////////////////////////////////////////////
+
+* Application Context : 하나만 존재 / lifecycle은 어플리케이션이 살아있는 동안 유지
+    - 로그인 정보와 같은 것들(실제로 로그인 정보는 DB에 넣지만 비유를 하자면!)
+
+* Activity Context : 동시에 여러개 존재(Activity마다 존재) / Activity가 유지되는 동안 유지
+
 
 
 

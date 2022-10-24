@@ -20,3 +20,11 @@ error: overload resolution ambiguity.
 
 warning: parameter 'power' is never used
     - 해당 파라미터에 대해 var를 붙여주면 된다.
+
+None of the following functions can be called with the arguments supplied.
+    - 해당 메서드에게 필요한 모든 조건을 기재하지 않아서.
+    - 즉, 메서드 괄호 안에 필요한 모든 인자가 들어오지 않았다는 말
+
+Smart cast to 'Bundle' is impossible, because 'arguments' is a mutable property that could have been changed by this time
+     - QualcommCommandTest폴더의 FragmentCommandKotlin.kt의 onCreate()참고
+     - arguments를 `arg`로 정의한 후 arg로 인자를 보내주면 된다.

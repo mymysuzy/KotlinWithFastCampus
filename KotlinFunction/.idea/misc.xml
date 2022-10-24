@@ -4,19 +4,48 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/drawable/calculator_bg.xml" value="0.254" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/drawable/calculator_bg2.xml" value="0.3365" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2165" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/drawable/number_bg.xml" value="0.203" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/drawable/numver_bg.xml" value="0.1" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_01.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_add_view.xml" value="0.17097264437689969" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_application_one.xml" value="0.32447916666666665" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_async.xml" value="0.325" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_fragment.xml" value="0.34375" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_fragment_one.xml" value="0.1" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_glide.xml" value="0.2513586956521739" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_homework1.xml" value="0.264" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_homework1_review.xml" value="0.2980392156862745" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_homework2.xml" value="0.34375" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_homework_review.xml" value="0.1" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_intent01.xml" value="0.31302083333333336" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_intent02.xml" value="0.38645833333333335" />
-        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_intent_one.xml" value="0.38645833333333335" />
-        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_intent_two.xml" value="0.38645833333333335" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_intent_one.xml" value="0.11510791366906475" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_intent_two.xml" value="0.1" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_list_view.xml" value="0.3541666666666667" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_main.xml" value="0.5651041666666666" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_one.xml" value="0.3261455525606469" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_phone_book.xml" value="0.3786231884057971" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_phone_book_detail.xml" value="0.2" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_recycler_view.xml" value="0.3234375" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_recycler_view_actiity.xml" value="0.3380208333333333" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_recycler_view_homework.xml" value="0.20238095238095238" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_resource.xml" value="0.1403985507246377" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_review.xml" value="0.264" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_tablayout_pager.xml" value="0.264" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_tablyout_pager.xml" value="0.1" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_test.xml" value="0.5614583333333333" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_thread.xml" value="0.203125" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_three.xml" value="0.3261455525606469" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_two.xml" value="0.32916666666666666" />
         <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_view_control02.xml" value="0.4" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/activity_web_page.xml" value="0.176" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/car_item.xml" value="0.6" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/chatitem_left.xml" value="0.4161458333333333" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/chatitem_right.xml" value="0.41510416666666666" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/first_fragment.xml" value="0.3045822102425876" />
+        <entry key="..\:/Users/sohyun/Desktop/Android/mymysuzy/KotlinWithFastCampus/KotlinFunction/app/src/main/res/layout/phonebook_item.xml" value="0.264" />
       </map>
     </option>
   </component>
